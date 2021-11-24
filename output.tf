@@ -14,3 +14,10 @@ variable "abc1" {}
 output "abc1" {
   value = var.abc1
 }
+
+variable "sample" {
+  default="hello"
+}
+output "sample" {
+  value = "var.sample"
+}
