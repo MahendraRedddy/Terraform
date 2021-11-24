@@ -15,9 +15,7 @@ output "abc1" {
   value = var.abc1
 }
 
-variable "sample" {
-  default="hello"
-}
+variable "sample" {}
 output "sample" {
   value = var.sample
 }
