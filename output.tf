@@ -15,7 +15,15 @@ output "abc1" {
   value = var.abc1
 }
 
-variable "sample" {}
-output "sample" {
-  value = var.sample
+# String Data type
+variable "sample1" {
+  default = "Hello World"
+}
+# Number data type
+variable "sample2" {
+  default = 100
+}
+# Boolean Data type
+variable "sample3" {
+  default = true
 }
