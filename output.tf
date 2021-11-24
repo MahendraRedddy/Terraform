@@ -3,7 +3,7 @@
 # }
 
  variable "abc" {
-   default="\n100"
+   default="100"
  }
 output "abc" {
   value =var.abc
