@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6da8a4ae-9a1c-438c-81ea-48f4ac9f17a8" name="Changes" comment="datas">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output.tf" beforeDir="false" afterPath="$PROJECT_DIR$/output.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -306,7 +305,35 @@
       <option name="project" value="LOCAL" />
       <updated>1637844359300</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="data">
+      <created>1637845369673</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1637845369673</updated>
+    </task>
+    <task id="LOCAL-00041" summary="dat">
+      <created>1637845448548</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1637845448548</updated>
+    </task>
+    <task id="LOCAL-00042" summary="data">
+      <created>1637845526520</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1637845526520</updated>
+    </task>
+    <task id="LOCAL-00043" summary="datas">
+      <created>1637845615920</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1637845615920</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -338,6 +365,7 @@
     <MESSAGE value="abc22" />
     <MESSAGE value="output" />
     <MESSAGE value="datass" />
+    <MESSAGE value="dat" />
     <MESSAGE value="data" />
     <MESSAGE value="datas" />
     <option name="LAST_COMMIT_MESSAGE" value="datas" />
