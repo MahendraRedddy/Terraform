@@ -20,7 +20,7 @@
    default = 200
  }
 output "abc2" {
-  value ="value of abc2=${var.abc2}"
+  value ="value of abc2=${var.abc2}
 }
 
 
