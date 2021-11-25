@@ -23,30 +23,16 @@ output "abc2" {
   value ="value of abc2=${var.abc2}"
 }
 
-
-variable "string" {
- default ="Hello"
- }
-
-variable "number" {
-  default = 1000
- }
-
-# variable "boolean" {
-#default = true
-# }
-
- output "string" {
-  value = "var.string"
+variable "samplex" {
+  default = [
+  "Hello",
+    100,
+    true
+  ]
 }
 
-output "number" {
-  value = var.number
+output "samplex" {
+  value = "value 1=${var.samplex[0]},value 2=${var.samplex[1]},value 3=${var.samplex[2]}"
 }
-#output "boolean" {
- # value =var.boolean
-#}
-
-
 
 
