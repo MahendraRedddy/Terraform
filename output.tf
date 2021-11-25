@@ -52,6 +52,5 @@ variable "sample" {
     "Hello",
     1000,
     true,
-    "World"
   ]
 }
