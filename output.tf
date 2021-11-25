@@ -28,9 +28,9 @@ variable "string" {
  default ="Hello"
  }
 
-#variable "number" {
- # default = 1000
-# }
+variable "number" {
+  default = 1000
+ }
 
 # variable "boolean" {
 #default = true
@@ -40,9 +40,9 @@ variable "string" {
   value = "var.string"
 }
 
-#output "number" {
- # value = var.number
-#}
+output "number" {
+  value = var.number
+}
 #output "boolean" {
  # value =var.boolean
 #}
