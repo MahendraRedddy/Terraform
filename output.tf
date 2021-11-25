@@ -25,7 +25,7 @@ output "abc2" {
 
 variable "samplex" {
   default = [
-  "Hello",
+    "Hello",
     100,
     true
   ]
@@ -33,6 +33,18 @@ variable "samplex" {
 
 output "samplex" {
   value = "value 1 =${var.samplex[0]},value 3=${var.samplex[2]}"
+}
+
+ variable "sampley" {
+  default = {
+    string  = "Hello",
+    number  = 100,
+    boolean = true
+  }
+}
+
+output "sampley" {
+  value = "String = ${var.sampley["string"]},Number = ${var.sampley["number"]},Boolean=${var.sampley["boolean"]}"
 }
 
 
