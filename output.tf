@@ -22,3 +22,17 @@ output "abc1" {
 output "abc2" {
   value =var.abc2
 }
+
+
+variable "string" {
+  default ="Hello"
+}
+
+variable "number" {
+  default = 1000
+}
+
+variable "boolean" {
+  default = true
+}
+
