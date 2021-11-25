@@ -24,9 +24,9 @@ output "abc2" {
 }
 
 
-#variable "string" {
-#default ="Hello"
-# }
+variable "string" {
+ default ="Hello"
+ }
 
 #variable "number" {
  # default = 1000
@@ -36,9 +36,9 @@ output "abc2" {
 #default = true
 # }
 
-#output "string" {
- # value = "var.string"
-#}
+ output "string" {
+  value = "var.string"
+}
 
 #output "number" {
  # value = var.number
@@ -53,3 +53,4 @@ variable "sample" {
     1000,
   ]
 }
+
