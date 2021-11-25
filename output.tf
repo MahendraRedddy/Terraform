@@ -47,10 +47,6 @@ output "number" {
  # value =var.boolean
 #}
 
-variable "sample" {
-  default = [
-    "Hello",
-    1000,
-  ]
-}
+
+
 
