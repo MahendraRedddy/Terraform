@@ -32,7 +32,7 @@ variable "samplex" {
 }
 
 output "samplex" {
-  value = "value 1=${var.samplex[0]},value 3=${var.samplex[2]}"
+  value = "value 1=${var.samplex},value 3=${var.samplex}"
 }
 
 
