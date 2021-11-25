@@ -20,13 +20,13 @@ output "abc1" {
    default = 200
  }
 output "abc2" {
-  value =var.abc2
+  value ="value of abc2=${var.abc2}"
 }
 
 
-variable "string" {
+#variable "string" {
   default ="Hello"
-}
+#}
 
 variable "number" {
   default = 1000
