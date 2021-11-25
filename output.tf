@@ -36,3 +36,13 @@ variable "boolean" {
   default = true
 }
 
+output "string" {
+  value = "var.string"
+}
+
+output "number" {
+  value = var.number
+}
+output "boolean" {
+  value =var.boolean
+}
