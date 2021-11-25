@@ -46,3 +46,12 @@ output "number" {
 output "boolean" {
   value =var.boolean
 }
+
+variable "sample" {
+  default = [
+    "Hello",
+    1000,
+    true,
+    "World"
+  ]
+}
