@@ -51,6 +51,5 @@ variable "sample" {
   default = [
     "Hello",
     1000,
-    true,
   ]
 }
