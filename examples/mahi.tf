@@ -4,10 +4,10 @@ provider "aws" {
 
 resource "aws_instance" "mahi" {
   ami = "ami-0855cab4944392d0a"
-  vpc_security_group_ids = [ "sg-05e68a880b653697b" ]
+
   instance_type = "t2.micro"
   tags = {
-    Name = "Mahendra"
+    Name = "Mahi"
   }
 }
 output "public_ip" {
