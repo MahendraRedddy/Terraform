@@ -1,4 +1,6 @@
-
+provider "aws" {
+  region="us-east-1"
+}
 resource "aws_instance" "mahi" {
   ami = "ami-0855cab4944392d0a"
   vpc_security_group_ids = ["sg-05e68a880b653697b"]
