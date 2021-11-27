@@ -2,6 +2,16 @@ provider "aws" {
   region ="us east -1"
 }
 
+resource "aws_instance" "sample" {
+
+  ami           = "ami-0855cab4944392d0a"
+  instance_type = "t2.micro"
+  vpc_security_group_ids = [aws_security_group.allow_sample.id,"sg-05e68a880b653697b"]
+  tags = {
+    Name = "sample"
+  }
+}
+
 resource "aws_security_group" "allow_sample" {
   name        = "allow_sample"
   description = "Allow sample traffic"
@@ -28,12 +38,4 @@ resource "aws_security_group" "allow_sample" {
   }
 }
 
-resource "aws_instance" "sample" {
 
-  ami           = "ami-0855cab4944392d0a"
-  instance_type = "t2.micro"
-   vpc_security_group_ids = [aws_security_group.allow_sample.id,"sg-05e68a880b653697b"]
-  tags = {
-    Name = "sample"
-  }
-}
