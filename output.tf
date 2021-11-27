@@ -48,3 +48,7 @@ output "sampley" {
 }
 
 
+variable "a" {}
+output "a" {
+  value=var.a
+}
