@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2ed56a5-e5c9-41d7-82cb-240f02cef93d" name="Changes" comment="varaiable" />
+    <list default="true" id="d2ed56a5-e5c9-41d7-82cb-240f02cef93d" name="Changes" comment="vars">
+      <change afterPath="$PROJECT_DIR$/examples/mahi.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/main" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -142,7 +146,21 @@
       <option name="project" value="LOCAL" />
       <updated>1637995246533</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="var">
+      <created>1637995330913</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1637995330913</updated>
+    </task>
+    <task id="LOCAL-00018" summary="vars">
+      <created>1637995501695</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1637995501696</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -165,6 +183,8 @@
     <MESSAGE value="varaiablees" />
     <MESSAGE value="varaiables" />
     <MESSAGE value="varaiable" />
-    <option name="LAST_COMMIT_MESSAGE" value="varaiable" />
+    <MESSAGE value="var" />
+    <MESSAGE value="vars" />
+    <option name="LAST_COMMIT_MESSAGE" value="vars" />
   </component>
 </project>
