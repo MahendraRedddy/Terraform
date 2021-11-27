@@ -36,5 +36,7 @@ resource "aws_security_group" "sample" {
     Name = "sample"
   }
 }
-
+output "SGID" {
+  value = aws_security_group.sample.id
+}
 
