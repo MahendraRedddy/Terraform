@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2ed56a5-e5c9-41d7-82cb-240f02cef93d" name="Changes" comment="vars" />
+    <list default="true" id="d2ed56a5-e5c9-41d7-82cb-240f02cef93d" name="Changes" comment="var">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -352,7 +354,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638024693128</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="var">
+      <created>1638024943169</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1638024943169</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -377,8 +386,8 @@
     <MESSAGE value="varaiable" />
     <MESSAGE value="vas" />
     <MESSAGE value="vass" />
-    <MESSAGE value="var" />
     <MESSAGE value="vars" />
-    <option name="LAST_COMMIT_MESSAGE" value="vars" />
+    <MESSAGE value="var" />
+    <option name="LAST_COMMIT_MESSAGE" value="var" />
   </component>
 </project>
