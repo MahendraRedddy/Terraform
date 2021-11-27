@@ -2,8 +2,8 @@ provider "aws" {
   region ="us-east-1"
 }
 
-resource "aws_security_group" "allow_sample" {
-  name        = "allow_sample"
+resource "aws_security_group" "allow-sample" {
+  name        = "Allow Sample"
   description = "Allow sample traffic"
 
   ingress = [
