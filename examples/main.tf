@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_security_group" "allow_sample" {
-  Name        = "allow_sample"
+  name        = "allow_sample"
   description = "Allow sample traffic"
 
   ingress = [
