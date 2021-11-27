@@ -32,7 +32,7 @@ resource "aws_instance" "sample" {
 
   ami           = "ami-0855cab4944392d0a"
   instance_type = "t2.micro"
-   vpc_security_group_ids = [aws_security_group_id]
+   vpc_security_group_ids = [aws_security_group_id,"sg-05e68a880b653697b"]
   tags = {
     Name = "sample"
   }
