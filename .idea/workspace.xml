@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2ed56a5-e5c9-41d7-82cb-240f02cef93d" name="Changes" comment="var">
-      <change beforePath="$PROJECT_DIR$/examples/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/examples/main.tf" afterDir="false" />
-    </list>
+    <list default="true" id="d2ed56a5-e5c9-41d7-82cb-240f02cef93d" name="Changes" comment="vars" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -333,7 +331,28 @@
       <option name="project" value="LOCAL" />
       <updated>1638024064763</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="vars">
+      <created>1638024425593</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1638024425593</updated>
+    </task>
+    <task id="LOCAL-00045" summary="var">
+      <created>1638024479008</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1638024479008</updated>
+    </task>
+    <task id="LOCAL-00046" summary="vars">
+      <created>1638024693128</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1638024693128</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -358,8 +377,8 @@
     <MESSAGE value="varaiable" />
     <MESSAGE value="vas" />
     <MESSAGE value="vass" />
-    <MESSAGE value="vars" />
     <MESSAGE value="var" />
-    <option name="LAST_COMMIT_MESSAGE" value="var" />
+    <MESSAGE value="vars" />
+    <option name="LAST_COMMIT_MESSAGE" value="vars" />
   </component>
 </project>
