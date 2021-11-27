@@ -2,10 +2,10 @@ provider "aws" {
   region ="us-east-1"
 }
 
-resource "aws_security_group" "allow-sample" {
-  name        = "allow Sample"
+resource "aws_security_group" "allow_sample" {
+  name        = "allow_Sample"
   description = "Allow sample traffic"
-  vpc_id      = "vpc-0359a51174dc9ae11"
+
   ingress = [
     {
       description      = "TLS from VPC"
