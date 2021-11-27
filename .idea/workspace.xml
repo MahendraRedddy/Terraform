@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2ed56a5-e5c9-41d7-82cb-240f02cef93d" name="Changes" comment="varaiab">
-      <change afterPath="$PROJECT_DIR$/terraform.tfvars" afterDir="false" />
+    <list default="true" id="d2ed56a5-e5c9-41d7-82cb-240f02cef93d" name="Changes" comment="varaiables">
+      <change afterPath="$PROJECT_DIR$/terraform.auto.tfvars" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +102,28 @@
       <option name="project" value="LOCAL" />
       <updated>1637994591437</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="varaiablees">
+      <created>1637994717099</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1637994717099</updated>
+    </task>
+    <task id="LOCAL-00012" summary="varaiable">
+      <created>1637994764288</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1637994764288</updated>
+    </task>
+    <task id="LOCAL-00013" summary="varaiables">
+      <created>1637994825895</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1637994825895</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,9 +142,10 @@
     <MESSAGE value="datas" />
     <MESSAGE value="data" />
     <MESSAGE value="varaiabless" />
-    <MESSAGE value="varaiables" />
-    <MESSAGE value="varaiable" />
     <MESSAGE value="varaiab" />
-    <option name="LAST_COMMIT_MESSAGE" value="varaiab" />
+    <MESSAGE value="varaiablees" />
+    <MESSAGE value="varaiable" />
+    <MESSAGE value="varaiables" />
+    <option name="LAST_COMMIT_MESSAGE" value="varaiables" />
   </component>
 </project>
