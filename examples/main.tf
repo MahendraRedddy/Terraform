@@ -5,7 +5,7 @@ provider "aws" {
 resource "aws_security_group" "allow-sample" {
   name        = "Allow Sample"
   description = "Allow sample traffic"
-
+  vpc_id      = "vpc-0359a51174dc9ae11"
   ingress = [
     {
       description      = "TLS from VPC"
