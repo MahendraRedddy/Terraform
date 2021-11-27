@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2ed56a5-e5c9-41d7-82cb-240f02cef93d" name="Changes" comment="varaiable">
-      <change beforePath="$PROJECT_DIR$/terraform.tfvar" beforeDir="false" afterPath="$PROJECT_DIR$/terraform.tfvar" afterDir="false" />
+    <list default="true" id="d2ed56a5-e5c9-41d7-82cb-240f02cef93d" name="Changes" comment="varaiab">
+      <change afterPath="$PROJECT_DIR$/terraform.tfvars" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637994195980</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="varaiab">
+      <created>1637994591437</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1637994591437</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -113,10 +120,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="datas" />
     <MESSAGE value="data" />
-    <MESSAGE value="varaiab" />
     <MESSAGE value="varaiabless" />
     <MESSAGE value="varaiables" />
     <MESSAGE value="varaiable" />
-    <option name="LAST_COMMIT_MESSAGE" value="varaiable" />
+    <MESSAGE value="varaiab" />
+    <option name="LAST_COMMIT_MESSAGE" value="varaiab" />
   </component>
 </project>
