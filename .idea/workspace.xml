@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2ed56a5-e5c9-41d7-82cb-240f02cef93d" name="Changes" comment="varaiable">
-      <change afterPath="$PROJECT_DIR$/terraform.tfvar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.tf" beforeDir="false" />
+    <list default="true" id="d2ed56a5-e5c9-41d7-82cb-240f02cef93d" name="Changes" comment="varaiabless">
       <change beforePath="$PROJECT_DIR$/output.tf" beforeDir="false" afterPath="$PROJECT_DIR$/output.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +60,21 @@
       <option name="project" value="LOCAL" />
       <updated>1637993362394</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="varaiab">
+      <created>1637993846668</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1637993846668</updated>
+    </task>
+    <task id="LOCAL-00006" summary="varaiabless">
+      <created>1637993914342</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1637993914342</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -81,6 +93,8 @@
     <MESSAGE value="datas" />
     <MESSAGE value="data" />
     <MESSAGE value="varaiable" />
-    <option name="LAST_COMMIT_MESSAGE" value="varaiable" />
+    <MESSAGE value="varaiab" />
+    <MESSAGE value="varaiabless" />
+    <option name="LAST_COMMIT_MESSAGE" value="varaiabless" />
   </component>
 </project>

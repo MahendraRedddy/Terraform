@@ -49,6 +49,7 @@ output "sampley" {
 
 
 variable "a" {}
+ default="a"
 output "a" {
   value=var.a
 }
