@@ -1,9 +1,9 @@
 provider "aws" {
-  region ="us-east-1"
+  region = "us-east-1"
 }
 
-resource "aws_security_group" "allow_sample" {
-  name        = "allow_Sample"
+resource "aws_security_group" "sample" {
+  name        = "Sample"
   description = "Allow sample traffic"
 
   ingress = [
@@ -33,7 +33,7 @@ resource "aws_security_group" "allow_sample" {
   }
 ]
   tags = {
-    Name = "allow_sample"
+    Name = "sample"
   }
 }
 

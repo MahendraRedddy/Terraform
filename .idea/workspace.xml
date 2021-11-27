@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2ed56a5-e5c9-41d7-82cb-240f02cef93d" name="Changes" comment="var">
+    <list default="true" id="d2ed56a5-e5c9-41d7-82cb-240f02cef93d" name="Changes" comment="vars">
       <change beforePath="$PROJECT_DIR$/examples/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/examples/main.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,13 +31,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1637920154173</updated>
-    </task>
-    <task id="LOCAL-00004" summary="varaiable">
-      <created>1637993362394</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1637993362394</updated>
     </task>
     <task id="LOCAL-00005" summary="varaiab">
       <created>1637993846668</created>
@@ -375,7 +368,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638027028837</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="vars">
+      <created>1638027389870</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1638027389870</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -400,8 +400,8 @@
     <MESSAGE value="varaiable" />
     <MESSAGE value="vas" />
     <MESSAGE value="vass" />
-    <MESSAGE value="vars" />
     <MESSAGE value="var" />
-    <option name="LAST_COMMIT_MESSAGE" value="var" />
+    <MESSAGE value="vars" />
+    <option name="LAST_COMMIT_MESSAGE" value="vars" />
   </component>
 </project>
