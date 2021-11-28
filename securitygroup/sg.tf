@@ -33,6 +33,3 @@ resource "aws_security_group" "allow" {
     Name = "sample"
   }
 }
-#output "SGID" {
- # value = aws_security_group.sample.id
-#}
