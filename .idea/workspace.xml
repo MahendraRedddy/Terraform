@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2ed56a5-e5c9-41d7-82cb-240f02cef93d" name="Changes" comment="instaces">
-      <change beforePath="$PROJECT_DIR$/examples/mahendra.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/main" beforeDir="false" afterPath="$PROJECT_DIR$/examples/main.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module/ec2.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/securitygroup/sg.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/examples/main.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,13 +33,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1637920154173</updated>
-    </task>
-    <task id="LOCAL-00017" summary="var">
-      <created>1637995330913</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1637995330913</updated>
     </task>
     <task id="LOCAL-00018" summary="vars">
       <created>1637995501695</created>
@@ -376,7 +370,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638070618242</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="instaces">
+      <created>1638100298001</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1638100298002</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

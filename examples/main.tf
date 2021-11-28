@@ -39,8 +39,8 @@
 #
 #
 
-provider "aws" {
-  region = "us-east-1"
+ provider "aws" {
+  region = "us-east-1a"
 }
 
 resource "aws_security_group" "sample" {
@@ -77,9 +77,9 @@ resource "aws_security_group" "sample" {
     Name = "sample"
   }
 }
-output "SGID" {
-  value = aws_security_group.sample.id
-}
+#output "SGID" {
+ # value = aws_security_group.sample.id
+#}
 
 
 resource "aws_instance" "sample" {
