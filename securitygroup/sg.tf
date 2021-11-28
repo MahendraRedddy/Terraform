@@ -1,4 +1,5 @@
-resource "aws_security_group" "sample" {
+
+resource "aws_security_group" "allow" {
   name        = "Sample"
   description = "Allow sample traffic"
 
@@ -32,6 +33,6 @@ resource "aws_security_group" "sample" {
     Name = "sample"
   }
 }
-output "SGID" {
-  value = aws_security_group.sample.id
-}
+#output "SGID" {
+ # value = aws_security_group.sample.id
+#}

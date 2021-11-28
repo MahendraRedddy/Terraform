@@ -63,3 +63,13 @@ resource "aws_instance" "sample" {
     Name = "sample"
   }
 }
+
+# s3 Configuration
+
+terraform {
+  backend "s3" {
+    bucket = "mahendra123"
+    key    = ["examples/sample/terraform.tfstate"]
+    region = "us-east-1"
+  }
+}
