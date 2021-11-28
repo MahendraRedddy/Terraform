@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2ed56a5-e5c9-41d7-82cb-240f02cef93d" name="Changes" comment="instaces">
+    <list default="true" id="d2ed56a5-e5c9-41d7-82cb-240f02cef93d" name="Changes" comment="instance,security and s3 bucket creation">
       <change beforePath="$PROJECT_DIR$/examples/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/examples/main.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/ec2.tf" beforeDir="false" afterPath="$PROJECT_DIR$/module/ec2.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/securitygroup/sg.tf" beforeDir="false" afterPath="$PROJECT_DIR$/securitygroup/sg.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,20 +31,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1637920154173</updated>
-    </task>
-    <task id="LOCAL-00022" summary="var">
-      <created>1638016277744</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1638016277744</updated>
-    </task>
-    <task id="LOCAL-00023" summary="var">
-      <created>1638016307313</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1638016307313</updated>
     </task>
     <task id="LOCAL-00024" summary="var">
       <created>1638016440146</created>
@@ -377,7 +361,21 @@
       <option name="project" value="LOCAL" />
       <updated>1638102899131</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="instace">
+      <created>1638105137979</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1638105137979</updated>
+    </task>
+    <task id="LOCAL-00072" summary="instance,security and s3 bucket creation">
+      <created>1638105257205</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1638105257205</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -405,8 +403,9 @@
     <MESSAGE value="var" />
     <MESSAGE value="vars" />
     <MESSAGE value="instac" />
-    <MESSAGE value="instace" />
     <MESSAGE value="instaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="instaces" />
+    <MESSAGE value="instace" />
+    <MESSAGE value="instance,security and s3 bucket creation" />
+    <option name="LAST_COMMIT_MESSAGE" value="instance,security and s3 bucket creation" />
   </component>
 </project>
