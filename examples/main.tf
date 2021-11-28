@@ -11,6 +11,7 @@ terraform {
  provider "aws" {
   region = "us-east-1"
  }
+# security group
 
 resource "aws_security_group" "sample" {
   name        = "Sample"
@@ -50,6 +51,7 @@ resource "aws_security_group" "sample" {
  # value = aws_security_group.sample.id
 #}
 
+# Ec2 instance creation
 
 resource "aws_instance" "sample" {
 
