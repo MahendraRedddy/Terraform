@@ -71,7 +71,7 @@ output "a" {
 
 # security group
 
-#output "SGID" {
+
 
 #resource "aws_security_group" "sample" {
  ##description = "Allow sample traffic"
