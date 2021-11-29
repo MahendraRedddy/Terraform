@@ -16,7 +16,7 @@
 
 # security group
 
-resource "aws_security_group" "mahi" {
+resource "aws_security_group" "group1" {
   description = "Allow sample traffic"
 
  ingress = [
@@ -53,7 +53,7 @@ resource "aws_security_group" "mahi" {
 
 # Ec2 instance creation
 
- resource "aws_instance" "mahi" {
+ resource "aws_instance" "sample1" {
    ami           = "ami-0855cab4944392d0a"
    instance_type = "t2.micro"
    vpc_security_group_ids = ["aws_security_group.allow_sample.id","sg-05e68a880b653697b"]
