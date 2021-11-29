@@ -4,8 +4,6 @@
     <list default="true" id="d2ed56a5-e5c9-41d7-82cb-240f02cef93d" name="Changes" comment="instance">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examples/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/examples/main.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mahendra/ec2.tf" beforeDir="false" afterPath="$PROJECT_DIR$/ec2/main.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/securitygroup/sg.tf" beforeDir="false" afterPath="$PROJECT_DIR$/sg/sg.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,20 +32,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1637920154173</updated>
-    </task>
-    <task id="LOCAL-00029" summary="var">
-      <created>1638019296209</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1638019296209</updated>
-    </task>
-    <task id="LOCAL-00030" summary="vars">
-      <created>1638019353347</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1638019353347</updated>
     </task>
     <task id="LOCAL-00031" summary="var">
       <created>1638019507929</created>
@@ -378,7 +362,21 @@
       <option name="project" value="LOCAL" />
       <updated>1638190544499</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="instances">
+      <created>1638192145950</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1638192145950</updated>
+    </task>
+    <task id="LOCAL-00079" summary="instance">
+      <created>1638192265113</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1638192265113</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -413,6 +411,7 @@
     <MESSAGE value="out" />
     <MESSAGE value="instacne" />
     <MESSAGE value="instace" />
+    <MESSAGE value="instances" />
     <MESSAGE value="instance" />
     <option name="LAST_COMMIT_MESSAGE" value="instance" />
   </component>
