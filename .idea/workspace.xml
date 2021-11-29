@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2ed56a5-e5c9-41d7-82cb-240f02cef93d" name="Changes" comment="instance,security and s3 bucket created">
+    <list default="true" id="d2ed56a5-e5c9-41d7-82cb-240f02cef93d" name="Changes" comment="out">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/ec2.tf" beforeDir="false" afterPath="$PROJECT_DIR$/module/ec2.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output.tf" beforeDir="false" afterPath="$PROJECT_DIR$/output.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/examples/main.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,13 +32,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1637920154173</updated>
-    </task>
-    <task id="LOCAL-00025" summary="vars">
-      <created>1638016758940</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1638016758940</updated>
     </task>
     <task id="LOCAL-00026" summary="var">
       <created>1638018251631</created>
@@ -377,7 +369,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638105516526</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="out">
+      <created>1638189585032</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1638189585032</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -410,6 +409,7 @@
     <MESSAGE value="instace" />
     <MESSAGE value="instance,security and s3 bucket creation" />
     <MESSAGE value="instance,security and s3 bucket created" />
-    <option name="LAST_COMMIT_MESSAGE" value="instance,security and s3 bucket created" />
+    <MESSAGE value="out" />
+    <option name="LAST_COMMIT_MESSAGE" value="out" />
   </component>
 </project>
