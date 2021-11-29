@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2ed56a5-e5c9-41d7-82cb-240f02cef93d" name="Changes" comment="out">
+    <list default="true" id="d2ed56a5-e5c9-41d7-82cb-240f02cef93d" name="Changes" comment="instance">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examples/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/examples/main.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mahendra/ec2.tf" beforeDir="false" afterPath="$PROJECT_DIR$/ec2/main.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/securitygroup/sg.tf" beforeDir="false" afterPath="$PROJECT_DIR$/sg/sg.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,27 +34,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1637920154173</updated>
-    </task>
-    <task id="LOCAL-00026" summary="var">
-      <created>1638018251631</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1638018251631</updated>
-    </task>
-    <task id="LOCAL-00027" summary="vars">
-      <created>1638018360486</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1638018360486</updated>
-    </task>
-    <task id="LOCAL-00028" summary="vass">
-      <created>1638018893959</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1638018893959</updated>
     </task>
     <task id="LOCAL-00029" summary="var">
       <created>1638019296209</created>
@@ -376,7 +357,28 @@
       <option name="project" value="LOCAL" />
       <updated>1638189585032</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="instacne">
+      <created>1638190273737</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1638190273737</updated>
+    </task>
+    <task id="LOCAL-00076" summary="instace">
+      <created>1638190351454</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1638190351454</updated>
+    </task>
+    <task id="LOCAL-00077" summary="instance">
+      <created>1638190544498</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1638190544499</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -406,10 +408,12 @@
     <MESSAGE value="vars" />
     <MESSAGE value="instac" />
     <MESSAGE value="instaces" />
-    <MESSAGE value="instace" />
     <MESSAGE value="instance,security and s3 bucket creation" />
     <MESSAGE value="instance,security and s3 bucket created" />
     <MESSAGE value="out" />
-    <option name="LAST_COMMIT_MESSAGE" value="out" />
+    <MESSAGE value="instacne" />
+    <MESSAGE value="instace" />
+    <MESSAGE value="instance" />
+    <option name="LAST_COMMIT_MESSAGE" value="instance" />
   </component>
 </project>
