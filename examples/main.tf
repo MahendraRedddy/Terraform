@@ -53,7 +53,7 @@ resource "aws_security_group" "mahe" {
 
 # Ec2 instance creation
 
-resource "aws_instance" "mahe" {
+resource "aws_instance" "sample" {
   ami           = "ami-0855cab4944392d0a"
   instance_type = "t2.micro"
   vpc_security_group_ids = ["aws_security_group.allow_sample.id","sg-05e68a880b653697b"]
