@@ -11,7 +11,7 @@ terraform {
     }
   }
 }
-
+# instance
 resource "aws_instance" "mahe" {
 
   ami           = "ami-0855cab4944392d0a"
