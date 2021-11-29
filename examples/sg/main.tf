@@ -1,5 +1,5 @@
 
-resource "aws_security_group" "sample" {
+resource "aws_security_group" "mahi" {
 description = "Allow sample traffic"
 
 ingress = [
