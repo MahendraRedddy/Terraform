@@ -63,4 +63,12 @@ resource "aws_instance" "mahe" {
   }
 }
 
+# s3 bucket for storage file in aws
 
+terraform {
+  backend "s3" {
+    bucket = "mahendra123"
+    key    = "examples/data/terraform.tfstate"
+    region = "us-east-1"
+  }
+}
