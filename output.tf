@@ -64,3 +64,12 @@ resource "aws_security_group" "allow_sample" {
    }
  }
 
+# s3 bucket for storage file in aws
+
+#terraform {
+ # backend "s3" {
+# bucket = "mahendra123"
+# key    = "examples/data/terraform.tfstate"
+ #   region = "us-east-1"
+  #}
+#}
