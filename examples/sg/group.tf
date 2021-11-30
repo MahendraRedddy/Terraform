@@ -34,3 +34,7 @@ resource "aws_security_group" "sample" {
     Name = "Group"
   }
 }
+
+output "SGID" {
+   value=aws_security_group.sample.id
+}
