@@ -13,8 +13,8 @@ terraform {
    region = "us-east-1"
  }
 
-resource "aws_security_group" "Security" {
-  name = "Security"
+resource "aws_security_group" "sample" {
+  name = "sample"
   description = "Allow sample traffic"
 
   ingress = [
@@ -51,7 +51,7 @@ resource "aws_security_group" "Security" {
 resource "aws_instance" "database" {
   ami           = "ami-0855cab4944392d0a"
   instance_type = "t2.micro"
-  vpc_security_group_ids = [aws_security_group.Security]
+  vpc_security_group_ids = [aws_security_group.sample.id]
 
   tags = {
     Name = "Instance"
