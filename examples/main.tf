@@ -10,9 +10,9 @@ terraform {
 }
 
 # aws provider
-provider "aws" {
-  region = "us-east-1"
-}
+ provider "aws" {
+   region = "us-east-1"
+ }
 
 resource "aws_security_group" "Security" {
   name = "Security"
