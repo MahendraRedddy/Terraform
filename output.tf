@@ -17,6 +17,7 @@
 # security group
 
 resource "aws_security_group" "allow_sample" {
+  name = "allow_sample"
   description = "Allow sample traffic"
 
  ingress = [
