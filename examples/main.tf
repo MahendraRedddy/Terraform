@@ -1,5 +1,6 @@
 
 #Version of terraform
+
 terraform {
   required_providers {
     aws = {
@@ -8,11 +9,13 @@ terraform {
     }
   }
 }
+
  # Configuration
  provider "aws" {
    region = "us-east-1"
  }
 
+# Security group creation
 resource "aws_security_group" "sample" {
   name = "sample"
   description = "Allow sample traffic"
@@ -60,10 +63,10 @@ resource "aws_instance" "database" {
 
 # s3 bucket for storage file in aws
 
-#terraform {
-  #backend "s3" {
-  #  bucket = "mahendra123"
-   # key    = "examples/file/terraform.tfstate"
-  #  region = "us-east-1"
- # }
-#}
+ terraform {
+   backend "s3" {
+     bucket = "mahendra123"
+     key    = "examples/database/terraform.tfstate"
+    region = "us-east-1"
+   }
+ }
