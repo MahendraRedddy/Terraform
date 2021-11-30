@@ -20,7 +20,7 @@ provider "aws" {
 terraform {
   backend "s3" {
     bucket = "mahendra123"
-    key    = "examples/base/terraform.tfstate"
+    key    = "examples/data/terraform.tfstate"
     region = "us-east-1"
   }
 }
