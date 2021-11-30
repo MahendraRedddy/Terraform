@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2ed56a5-e5c9-41d7-82cb-240f02cef93d" name="Changes" comment="module">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/ec2/instance.tf" beforeDir="false" afterPath="$PROJECT_DIR$/examples/ec2/instance.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/examples/main.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/sg/group.tf" beforeDir="false" afterPath="$PROJECT_DIR$/examples/sg/group.tf" afterDir="false" />
-    </list>
+    <list default="true" id="d2ed56a5-e5c9-41d7-82cb-240f02cef93d" name="Changes" comment="moduleS" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,13 +39,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1637920154173</updated>
-    </task>
-    <task id="LOCAL-00090" summary="sg">
-      <created>1638195795990</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1638195795990</updated>
     </task>
     <task id="LOCAL-00091" summary="sg">
       <created>1638195937234</created>
@@ -388,7 +376,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638284187321</updated>
     </task>
-    <option name="localTasksCounter" value="139" />
+    <task id="LOCAL-00139" summary="moduleS">
+      <created>1638290319922</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1638290319922</updated>
+    </task>
+    <option name="localTasksCounter" value="140" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -405,7 +400,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="instacne" />
     <MESSAGE value="instace" />
     <MESSAGE value="examp" />
     <MESSAGE value="sgg" />
@@ -430,6 +424,7 @@
     <MESSAGE value="instance" />
     <MESSAGE value="instances" />
     <MESSAGE value="module" />
-    <option name="LAST_COMMIT_MESSAGE" value="module" />
+    <MESSAGE value="moduleS" />
+    <option name="LAST_COMMIT_MESSAGE" value="moduleS" />
   </component>
 </project>
