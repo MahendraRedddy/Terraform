@@ -31,6 +31,6 @@ resource "aws_security_group" "allow_sample" {
     }
   ]
   tags = {
-    Name = ""
+    Name = "Security"
   }
 }

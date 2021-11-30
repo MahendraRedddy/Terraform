@@ -4,6 +4,6 @@ resource "aws_instance" "database" {
   vpc_security_group_ids = []
 
   tags = {
-    Name = "Roboshop"
+    Name = "database"
   }
 }
