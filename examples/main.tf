@@ -56,7 +56,7 @@ resource "aws_security_group" "allow_sample" {
 resource "aws_instance" "mahe" {
   ami           = "ami-0855cab4944392d0a"
   instance_type = "t2.micro"
-  vpc_security_group_ids = ["aws_security_group.allow_sample.id"]
+  #vpc_security_group_ids = ["aws_security_group.allow_sample.id"]
 
   tags = {
     Name = ""
