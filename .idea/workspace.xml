@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2ed56a5-e5c9-41d7-82cb-240f02cef93d" name="Changes" comment="moduleS" />
+    <list default="true" id="d2ed56a5-e5c9-41d7-82cb-240f02cef93d" name="Changes" comment="module" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,13 +39,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1637920154173</updated>
-    </task>
-    <task id="LOCAL-00091" summary="sg">
-      <created>1638195937234</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1638195937234</updated>
     </task>
     <task id="LOCAL-00092" summary="sgs">
       <created>1638196402232</created>
@@ -383,7 +376,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638290319922</updated>
     </task>
-    <option name="localTasksCounter" value="140" />
+    <task id="LOCAL-00140" summary="module">
+      <created>1638290648096</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1638290648096</updated>
+    </task>
+    <option name="localTasksCounter" value="141" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -423,8 +423,8 @@
     <MESSAGE value="modules" />
     <MESSAGE value="instance" />
     <MESSAGE value="instances" />
-    <MESSAGE value="module" />
     <MESSAGE value="moduleS" />
-    <option name="LAST_COMMIT_MESSAGE" value="moduleS" />
+    <MESSAGE value="module" />
+    <option name="LAST_COMMIT_MESSAGE" value="module" />
   </component>
 </project>
