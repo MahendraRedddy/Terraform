@@ -31,11 +31,11 @@ resource "aws_security_group" "secure" {
     }
   ]
   tags = {
-    Name = "main"
+    Name = "group"
   }
 }
 
 output "SGID" {
-  value=aws_security_group.secure.id
+  value =aws_security_group.secure.id
 }
 

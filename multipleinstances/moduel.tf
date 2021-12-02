@@ -30,7 +30,7 @@ module "ec2" {
   count  = 2
   source = "./ec2"
   SGID =module.sg.SGID
-  name = "work_${count.index}"
+  name = "work${count.index}"
 }
 
 
@@ -38,6 +38,4 @@ module "sg" {
   source = "./sg"
 }
 
-output "public_ip" {
-value = module.ec2
-}
+
