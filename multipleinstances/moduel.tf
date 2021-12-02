@@ -21,7 +21,7 @@ provider "aws" {
 terraform {
   backend "s3" {
     bucket = "mahendra123"
-    key    = "examples/database/terraform.tfstate"
+    key    = "multipleinstances/database1/terraform.tfstate"
     region = "us-east-1"
   }
 }
@@ -39,5 +39,5 @@ module "sg" {
 }
 
 output "public_ip" {
-  value = module.ec2[0]
+  value = module.ec2
 }
