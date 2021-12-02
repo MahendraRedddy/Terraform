@@ -36,3 +36,5 @@ module "ec2" {
 module "sg" {
   source = "./sg"
 }
+
+name="work-${count_index}"
