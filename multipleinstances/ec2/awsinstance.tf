@@ -11,3 +11,7 @@ resource "aws_instance" "work" {
 
 variable "SGID" {}
 variable "name" {}
+
+output "public_ip" {
+  value = "aws_instance.work.public_ip"
+}

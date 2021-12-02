@@ -38,3 +38,6 @@ module "sg" {
   source = "./sg"
 }
 
+output "public_ip" {
+  value = "aws_instance.work.public_ip"
+}
