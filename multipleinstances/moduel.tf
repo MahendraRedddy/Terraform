@@ -30,7 +30,7 @@ module "ec2" {
   count  = 2
   source = "./ec2"
   SGID =module.sg.SGID
-  name ="work-1${count.index}"
+  name ="work-${count.index}"
 
 }
 
