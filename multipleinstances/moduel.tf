@@ -18,13 +18,13 @@ provider "aws" {
 
 # s3 bucket for storage file in aws
 
-terraform {
-  backend "s3" {
-    bucket = "mahendra123"
-    key    = "multipleinstances/database1/terraform.tfstate"
-    region = "us-east-1"
-  }
-}
+#terraform {
+#  backend "s3" {
+#    bucket = "mahendra123"
+#    key    = "multipleinstances/database1/terraform.tfstate"
+#    region = "us-east-1"
+#  }
+#}
 
 module "ec2" {
   count  = 1
@@ -39,6 +39,6 @@ module "sg" {
   source = "./sg"
 }
 
-output "public_id" {
-  value = "module.ec2"
-}
+#output "public_ip" {
+ # value = "module.ec2"
+#}
