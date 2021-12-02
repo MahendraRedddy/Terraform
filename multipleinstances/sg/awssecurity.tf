@@ -1,7 +1,7 @@
 # Security group creation
 
-resource "aws_security_group" "station" {
-  name = "station"
+resource "aws_security_group" "secure" {
+  name = "secure"
   description = "Allow sample traffic"
 
   ingress = [
@@ -36,6 +36,6 @@ resource "aws_security_group" "station" {
 }
 
 output "SGID" {
-  value=aws_security_group.station.id
+  value=aws_security_group.secure.id
 }
 
