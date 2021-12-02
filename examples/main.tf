@@ -27,11 +27,10 @@ terraform {
  }
 
 module "ec2" {
-  count  = 2
+  count  = 3
   source = "./ec2"
   SGID =module.sg.SGID
 }
-
 
 
 module "sg" {
