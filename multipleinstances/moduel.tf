@@ -27,7 +27,7 @@ terraform {
 }
 
 module "ec2" {
-  count  = 2
+  count  = 1
   source = "./ec2"
   SGID =module.sg.SGID
   name ="work${count.index}"
@@ -40,5 +40,5 @@ module "sg" {
 }
 
 output "public_id" {
-  value = "module.ec2[0]"
+  value = "module.ec2"
 }
