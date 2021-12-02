@@ -13,5 +13,5 @@ variable "SGID" {}
 variable "name" {}
 
 output "public_ip" {
-  value = "aws_instance.group.work.public_ip"
+  value = aws_instance.work.public_ip
 }
