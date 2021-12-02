@@ -1,7 +1,7 @@
 # Security group creation
 
-resource "aws_security_group" "sample" {
-  name = "sample"
+resource "aws_security_group" "data" {
+  name = "data"
   description = "Allow sample traffic"
 
   ingress = [
@@ -36,5 +36,5 @@ resource "aws_security_group" "sample" {
 }
 
 output "SGID" {
-   value=aws_security_group.sample.id
+   value=aws_security_group.data.id
 }
