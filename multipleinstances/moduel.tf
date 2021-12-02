@@ -27,9 +27,10 @@ terraform {
 }
 
 module "ec2" {
-  #count  = 2
+  count  = 2
   source = "./ec2"
   SGID =module.sg.SGID
+  name ="work${count.index}"
 
 }
 
@@ -38,4 +39,4 @@ module "sg" {
   source = "./sg"
 }
 
-#name = "work${count.index}"
+
