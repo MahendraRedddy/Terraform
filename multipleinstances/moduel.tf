@@ -39,5 +39,5 @@ module "sg" {
 }
 
 output "public_ip" {
-  value = "module.ec2.work.public_ip"
+  value = module.ec2[0]
 }
