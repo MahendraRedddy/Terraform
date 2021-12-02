@@ -39,6 +39,3 @@ output "SGID" {
   value=aws_security_group.station.id
 }
 
-output "public_ip" {
-  value = "aws_instance.work.public_ip"
-}
