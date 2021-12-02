@@ -10,3 +10,4 @@ resource "aws_instance" "work" {
 }
 
 variable "SGID" {}
+variable "name" {}
