@@ -40,5 +40,5 @@ module "sg" {
 }
 
 output "public_id" {
-  value = "module.ec2"
+  value = ""
 }

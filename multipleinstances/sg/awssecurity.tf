@@ -36,6 +36,6 @@ resource "aws_security_group" "secure" {
 }
 
 output "SGID" {
-  value =aws_security_group.secure.id
+  value = aws_security_group.secure.id
 }
 
